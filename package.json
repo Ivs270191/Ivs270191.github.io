@@ -1,5 +1,6 @@
 {
   "name": "pizza",
+  "homepage": "https://ivs270191.github.io/pizza-final/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
