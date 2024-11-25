@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkpizza=self.webpackChunkpizza||[]).push([[810],{2260:(s,n,e)=>{e.r(n),e.d(n,{default:()=>d});e(5043);const c="NotFoundBlock_notFound__bkmf0";var a=e(579);const r=()=>(0,a.jsx)(a.Fragment,{children:(0,a.jsxs)("div",{className:c,children:[(0,a.jsx)("span",{children:"\ud83d\ude15"}),(0,a.jsx)("br",{}),(0,a.jsx)("h1",{children:"\u041d\u0438\u0447\u0435\u0433\u043e \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e"})]})}),d=()=>(0,a.jsx)(a.Fragment,{children:(0,a.jsx)(r,{})})}}]);
+//# sourceMappingURL=NotFound.91507129.chunk.js.map
