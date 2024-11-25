@@ -31,7 +31,7 @@ function App() {
           }
         />
         <Route
-          path="/Cart"
+          path="Cart"
           element={
             <Suspense fallback={<p>Идет загрузка...</p>}>
               <Cart />
@@ -39,7 +39,7 @@ function App() {
           }
         />
         <Route
-          path="/pizza/:id"
+          path="pizza/:id"
           element={
             <Suspense fallback={<p>Идет загрузка...</p>}>
               <ItemDescription />

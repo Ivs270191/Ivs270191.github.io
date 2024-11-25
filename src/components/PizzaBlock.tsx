@@ -63,7 +63,10 @@ const PizzaBlock = (props: PizzaItemType) => {
       </div>
       <div className="pizza-block__bottom">
         <div className="pizza-block__price">{props.price} грн</div>
-        <div className="button button--outline button--add">
+        <div
+          onClick={clickAddCartItem}
+          className="button button--outline button--add"
+        >
           <svg
             width="12"
             height="12"
@@ -76,7 +79,7 @@ const PizzaBlock = (props: PizzaItemType) => {
               fill="white"
             ></path>
           </svg>
-          <span onClick={clickAddCartItem}>Добавить</span>
+          <span>Добавить</span>
           {findCartItemSum > 0 && <i>{findCartItemSum}</i>}
         </div>
       </div>

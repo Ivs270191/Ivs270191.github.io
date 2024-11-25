@@ -2,7 +2,7 @@ import axios from "axios";
 
 axios.defaults.baseURL = "https://67222c072108960b9cc3333a.mockapi.io/";
 
-export const getItems = async (url) => {
+export const getItems = async (url:string) => {
   try {
     const getItem = await axios.get(url);
     return getItem.data;
