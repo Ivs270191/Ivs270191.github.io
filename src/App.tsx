@@ -20,7 +20,7 @@ const NotFound = lazy(
 function App() {
   return (
     <Routes>
-      <Route path=""  element={<MainLayout />}>
+      <Route path="" element={<MainLayout />}>
         <Route path="/" element={<Home />} />
         <Route
           path="*"
@@ -31,7 +31,7 @@ function App() {
           }
         />
         <Route
-          path="Cart"
+          path="/Cart"
           element={
             <Suspense fallback={<p>Идет загрузка...</p>}>
               <Cart />
