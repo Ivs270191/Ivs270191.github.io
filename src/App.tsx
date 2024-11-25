@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 
 import "./scss/app.scss";
 
@@ -18,6 +18,8 @@ const NotFound = lazy(
 );
 
 function App() {
+  const location = useLocation();
+  console.log(location.pathname);
   return (
     <Routes>
       <Route path="" element={<MainLayout />}>
